@@ -62,7 +62,7 @@ def test_quadratics_1(a, b, c, expected):
 
 class TestYandexDisk:
     def set_up(self):
-        headers = {'Authorization': 'OAuth y0_AgAAAAA7fFOGAADLWwAAAAD5X6TaAACOGGOTXqdN3KPXriSq0CGD1QqJNw'}
+        headers = {'Authorization': 'OAuth <<enter_your_OAuth_here>>'}    # enter your access token from Yandex Poligon here
         return headers
 
     def test_create_folder_201(self):
